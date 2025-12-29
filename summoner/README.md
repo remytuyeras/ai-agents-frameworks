@@ -191,12 +191,12 @@ If you want agents to talk to each other, adjust or remove this guard so the **r
 
     ```sh
     bash summoner-sdk/build_sdk.sh delete --venv ../.venv
-    rm -rf logs summoner-sdk .venv
+    rm -rf logs summoner-sdk
     ```
 
 * **Windows (PowerShell)**
 
     ```powershell
     .\summoner-sdk\build_sdk_on_windows.ps1 delete
-    Remove-Item -Recurse -Force logs, summoner-sdk, .venv
+    Remove-Item -Recurse -Force logs, summoner-sdk
     ```
