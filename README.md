@@ -321,6 +321,35 @@ This repository provides a comprehensive, hands-on comparison of modern AI agent
           </a>
       </td>
     </tr>
+    <!-- Summoner -->
+    <tr>
+      <td style="vertical-align: middle;">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="res/summoner-dark.png">
+          <source media="(prefers-color-scheme: light)" srcset="res/summoner-text-dark.png">
+          <img src="res/summoner-text-dark.png" alt="Summoner" width="150" style="vertical-align: middle;">
+        </picture>
+        <!-- <strong style="vertical-align: middle; font-size: 1.2em;">Summoner</strong> -->
+      </td>
+      <td>
+          <a href="https://github.com/Summoner-Network/summoner-docs">
+            <picture>
+              <source media="(prefers-color-scheme: dark)" srcset="res/book-open-dark.svg">
+              <source media="(prefers-color-scheme: light)" srcset="res/book-open.svg">
+              <img src="res/book-open.svg" alt="Docs" width="20">
+            </picture>
+          </a>
+      </td>
+      <td>
+          <a href="https://github.com/Summoner-Network/summoner-sdk">
+            <picture>
+              <source media="(prefers-color-scheme: dark)" srcset="res/github-icon-dark.svg">
+              <source media="(prefers-color-scheme: light)" srcset="res/github-icon.svg">
+              <img src="res/github-icon.svg" alt="GitHub" width="20">
+            </picture>
+          </a>
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -340,6 +369,7 @@ The repository is organized by framework, with each top-level folder containing 
 - `openai-agents-sdk/`
 - `pydantic-ai/`
 - `smolagents/`
+- `summoner/`
 - `study-agents-differences/`
 
 Some modules are standalone, while others are PDM projects or use `requirements.txt` for dependency management. Always check the `README.md` in each module for specific setup and usage instructions.
