@@ -325,9 +325,9 @@ This repository provides a comprehensive, hands-on comparison of modern AI agent
     <tr>
       <td style="vertical-align: middle;">
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="res/summoner-dark.png">
-          <source media="(prefers-color-scheme: light)" srcset="res/summoner-text-dark.png">
-          <img src="res/summoner-text-dark.png" alt="Summoner" width="150" style="vertical-align: middle;">
+          <source media="(prefers-color-scheme: dark)" srcset="res/summoner-text-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="res/summoner-text.svg">
+          <img src="res/summoner-text.svg" alt="Summoner" width="150" style="vertical-align: middle;">
         </picture>
         <!-- <strong style="vertical-align: middle; font-size: 1.2em;">Summoner</strong> -->
       </td>
