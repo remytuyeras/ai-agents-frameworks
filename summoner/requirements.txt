@@ -1,0 +1,7 @@
+openai==1.82.0
+pydantic==2.11.5
+pydantic-settings==2.9.1
+pydantic_core==2.33.2
+python-dotenv==1.1.0
+wcwidth==0.2.14
+aioconsole==0.8.1
